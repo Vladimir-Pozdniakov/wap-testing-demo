@@ -12,18 +12,19 @@ and includes Allure reporting integration.
 - Docker + docker-compose
 
 ## Project Structure
+```
 wap-testing-demo/
 ├── framework/
-│ ├── devices/ # Device management
-│ ├── fixtures/ # Pytest fixtures
-│ ├── pom/ # Page Object Model implementations
-│ ├── reporter/ # Reporting functionality
-│ └── sut/ # System Under Test configurations
-├── reports/ # Test execution reports
-├── tests/ # Test cases
-├── utilities/ # Helper functions
-└── conftest.py # Pytest configuration
-
+│ ├── devices/    # Device management
+│ ├── fixtures/   # Pytest fixtures
+│ ├── pom/        # Page Object Model implementations
+│ ├── reporter/   # Reporting functionality
+│ └── sut/        # System Under Test configurations
+├── reports/      # Test execution reports
+├── tests/        # Test cases
+├── utilities/    # Helper functions
+└── conftest.py   # Pytest configuration
+```
 
 ## Installation
 
