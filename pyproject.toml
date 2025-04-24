@@ -1,0 +1,13 @@
+[project]
+name = "wap-testing-demo"
+version = "0.1.0"
+description = "Demo of Selenium Web app testing"
+requires-python = ">=3.11"
+dependencies = [
+    "allure-pytest==2.14.0",
+    "chromedriver-py==135.0.7049.97",
+    "pre-commit==4.2.0",
+    "pytest==8.3.5",
+    "pytest-dotenv==0.5.2",
+    "pytest-selenium==4.1.0",
+]

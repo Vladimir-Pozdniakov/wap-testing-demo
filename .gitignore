@@ -1,0 +1,30 @@
+# Python files
+.pytest_cache/
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.venv
+
+# PyCharm project files
+.idea/
+*.iml
+
+### VisualStudioCode ###
+.vscode/*
+.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Environment variables
+.env
+
+# Test run results
+reports/default/results/*
+reports/default/reports/*
+reports/twitch-mobile/results/*
+reports/twitch-mobile/reports/*
